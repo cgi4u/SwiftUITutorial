@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3AD99423100D1000EF0873 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD99323100D1000EF0873 /* CircleImage.swift */; };
+		3A3AD9962310123C00EF0873 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD9952310123C00EF0873 /* MapView.swift */; };
 		3AADCDC8230FD8A2009C066A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCDC7230FD8A2009C066A /* AppDelegate.swift */; };
 		3AADCDCA230FD8A2009C066A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCDC9230FD8A2009C066A /* SceneDelegate.swift */; };
 		3AADCDCC230FD8A2009C066A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCDCB230FD8A2009C066A /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A3AD99323100D1000EF0873 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3A3AD9952310123C00EF0873 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3AADCDC4230FD8A2009C066A /* SwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AADCDC7230FD8A2009C066A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AADCDC9230FD8A2009C066A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				3AADCDC7230FD8A2009C066A /* AppDelegate.swift */,
 				3AADCDC9230FD8A2009C066A /* SceneDelegate.swift */,
 				3AADCDCB230FD8A2009C066A /* ContentView.swift */,
+				3A3AD99323100D1000EF0873 /* CircleImage.swift */,
+				3A3AD9952310123C00EF0873 /* MapView.swift */,
 				3AADCDCD230FD8A3009C066A /* Assets.xcassets */,
 				3AADCDD2230FD8A3009C066A /* LaunchScreen.storyboard */,
 				3AADCDD5230FD8A3009C066A /* Info.plist */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AADCDC8230FD8A2009C066A /* AppDelegate.swift in Sources */,
+				3A3AD99423100D1000EF0873 /* CircleImage.swift in Sources */,
+				3A3AD9962310123C00EF0873 /* MapView.swift in Sources */,
 				3AADCDCA230FD8A2009C066A /* SceneDelegate.swift in Sources */,
 				3AADCDCC230FD8A2009C066A /* ContentView.swift in Sources */,
 			);
@@ -436,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = F59E6VU42S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = F59E6VU42S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUITutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
