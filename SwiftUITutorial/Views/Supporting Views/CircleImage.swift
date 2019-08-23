@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct CircleImage: View {
+    var image: Image
+    
     var body: some View {
-        Image("turtlerock")
+        image
             .resizable(resizingMode: .stretch)    // modifier 순서에 따라 적용되지 않을 수 있음(Image에만 적용되는 메소드)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.gray, lineWidth: 4))
@@ -20,6 +22,6 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
+        CircleImage(image: landmarkData[0].image)
     }
 }
