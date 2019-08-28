@@ -34,6 +34,8 @@
 		3AADCDD4230FD8A3009C066A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AADCDD2230FD8A3009C066A /* LaunchScreen.storyboard */; };
 		3AADCDDF230FD8A3009C066A /* SwiftUITutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCDDE230FD8A3009C066A /* SwiftUITutorialTests.swift */; };
 		3AADCDEA230FD8A4009C066A /* SwiftUITutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADCDE9230FD8A4009C066A /* SwiftUITutorialUITests.swift */; };
+		3AFC3FBB2316B16D002EDE04 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC3FBA2316B16D002EDE04 /* charleyrivers.jpg */; };
+		3AFC3FBD2316BD10002EDE04 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC3FBC2316BD10002EDE04 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		3AADCDE5230FD8A4009C066A /* SwiftUITutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AADCDE9230FD8A4009C066A /* SwiftUITutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialUITests.swift; sourceTree = "<group>"; };
 		3AADCDEB230FD8A4009C066A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFC3FBA2316B16D002EDE04 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		3AFC3FBC2316BD10002EDE04 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 			children = (
 				3A3AD9D823102BE000EF0873 /* Landmark.swift */,
 				3A3AD9F623102F5000EF0873 /* Data.swift */,
+				3AFC3FBC2316BD10002EDE04 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 		3A3AD9F523102CBA00EF0873 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3AFC3FBA2316B16D002EDE04 /* charleyrivers.jpg */,
 				3A3AD9DD23102C6100EF0873 /* chilkoottrail.jpg */,
 				3A3AD9E423102C6100EF0873 /* chincoteague.jpg */,
 				3A3AD9E623102C6100EF0873 /* hiddenlake.jpg */,
@@ -344,6 +350,7 @@
 				3A3AD9EC23102C6200EF0873 /* icybay.jpg in Resources */,
 				3A3AD9F123102C6200EF0873 /* chincoteague.jpg in Resources */,
 				3A3AD9EA23102C6200EF0873 /* chilkoottrail.jpg in Resources */,
+				3AFC3FBB2316B16D002EDE04 /* charleyrivers.jpg in Resources */,
 				3A3AD9F223102C6200EF0873 /* rainbowlake.jpg in Resources */,
 				3A3AD9E823102C6200EF0873 /* silversalmoncreek.jpg in Resources */,
 				3A3AD9EE23102C6200EF0873 /* twinlake.jpg in Resources */,
@@ -385,6 +392,7 @@
 				3AADCDCA230FD8A2009C066A /* SceneDelegate.swift in Sources */,
 				3AADCDCC230FD8A2009C066A /* LandmarkDetail.swift in Sources */,
 				3A3AD9F923103D8100EF0873 /* LandmarkRow.swift in Sources */,
+				3AFC3FBD2316BD10002EDE04 /* UserData.swift in Sources */,
 				3A3AD9D923102BE000EF0873 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
